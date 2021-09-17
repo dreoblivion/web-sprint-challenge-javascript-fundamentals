@@ -112,7 +112,7 @@ const zooAnimals = [
     return totalPop;
   }
 
-    console.log(USApop(zooAnimals));
+    console.log(USApop(zooAnimals));   
   
   
   // 🦁🦁🦁 Callbacks 🦁🦁🦁  
