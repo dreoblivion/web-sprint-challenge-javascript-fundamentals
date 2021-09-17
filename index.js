@@ -96,7 +96,7 @@ const zooAnimals = [
       return animals.population < 5;
     })
     return pop;
-  }
+  }  
   
 
   /* 🦁🦁🦁 Request 4: .reduce() 🦁🦁🦁
