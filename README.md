@@ -25,15 +25,21 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
+They both pass a function onto each array element. .forEach returns undefined, while .map returns a new array.
 
 2. Explain the difference between a callback and a higher order function.
+A callback is a function that is passed to higher order functions while, a higher order function needs other functions passed to it in arguments.
 
 3. Explain what a closure is.
-
+A closure is when a variable reaches out of it's scope to find a value.
 4. Describe the four principles of the 'this' keyword.
+1) A called or binded function must be defined.
+2) When globally scoped function is called , this within the function will equal the window.
+3) A function with a dot preceeding within an object, this will equal the object.
+4)A function with a preceeding dot that has a constructor , the object will equal this.
 
 5. Why do we need super() in an extended class?
-
+Super is needed to pass arguments down to the class being extended through super so it can construct the extended class.
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
 ## Instructions
